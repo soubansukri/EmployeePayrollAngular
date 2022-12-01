@@ -1,0 +1,38 @@
+<!-- Main page -->
+<div class="main-content">
+  <div class="header-content">
+    <div class="emp-detail-text">
+      Employee Details<div class="emp-count">10</div>
+    </div>
+    <a class="add-button" href="../add-employee/add-employee.component.ts" >
+    <img class="add-button" src="../assets/icon/addEmp.png" alt="img" height="30px">Add User</a>
+  </div>
+</div>
+
+<!--Emp details  -->
+<table id="display" class="table">
+  <tr>
+    <th></th>
+    <th>Name</th>
+    <th>Gender</th>
+    <th>Department</th>
+    <th>Salary</th>
+    <th>Start Date</th>
+    <th>Actions</th>
+  </tr>
+  <tr>
+    <td>
+      <img class="profile" alt="" src="..\assets\profilePics\profile1.png" height="30px">
+    </td>
+    <td>Mohammed Souban</td>
+    <td>Male</td>
+    <td><div class="dept-label">HR</div>
+      <div class="dept-label">Finance</div></td>
+    <td>3000000</td>
+    <td>1 Nov 2022</td>
+    <td>
+      <img id="1" onclick="remove(this)" src="../assets/icon/delete.png" alt="delete" height="15x">
+      <img id="1" onclick="update(this)" src="../assets/icon/create.png" alt="update" height="15px">
+    </td>
+  </tr>
+</table>
